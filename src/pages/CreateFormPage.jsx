@@ -9,6 +9,10 @@ const CreateFormPage = () => {
     const [loading,setLoading] = useState(false);
     const [err,setErr] = useState('');
     const addFormField = (fieldType) => {
+        if (formFields.length >= 20) {
+            alert('Maximum of 20 input fields allowed.');
+            return;
+        }
         setFormFields([...formFields, { type: fieldType, label: '', placeholder: '' }]);
     };
 
@@ -43,6 +47,7 @@ const CreateFormPage = () => {
         } catch (error) {
             console.error('Error:', error);
             alert(error.message);
+            setErr(true)
         } finally {
             setLoading(false);
         }
