@@ -1,0 +1,31 @@
+.edit-form-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.form-title-input, .form-field input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-editor {
+    margin-top: 20px;
+}
+
+.update-form {
+    padding: 10px 15px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.update-form:hover {
+    background-color: #007ba7;
+}
+

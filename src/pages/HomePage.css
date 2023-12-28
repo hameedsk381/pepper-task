@@ -1,0 +1,50 @@
+.home-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.create-form-link {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.form-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 0 50px;
+}
+
+.form-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-item h2 {
+    margin-top: 0;
+}
+
+.form-actions a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+.form-actions a:hover {
+    text-decoration: underline;
+}
+.delete{
+    border: none;
+    background-color: transparent;
+}
+.delete:hover{
+    text-decoration: underline;
+}

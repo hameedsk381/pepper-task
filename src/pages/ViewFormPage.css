@@ -1,0 +1,43 @@
+.view-form-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.form-display {
+    margin: auto;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+   border: 1px solid black;
+    border-radius: 8px;
+}
+
+.form-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #090101;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.submit-form{
+    border: 1px solid black;
+    background-color: #fff;
+    color: #090101;
+}
+.submit-form:hover{
+    border: 1px solid black;
+    background-color: #0f0000;
+    color: #ffffff;
+}
