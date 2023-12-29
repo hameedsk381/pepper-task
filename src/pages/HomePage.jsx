@@ -38,7 +38,7 @@ const HomePage = () => {
             }
             setForms(forms.filter(form => form._id !== formId));
         } catch (error) {
-            console.error('Delete Errors:', error);
+            console.error('Delete Error:', error);
         }
     };
 
