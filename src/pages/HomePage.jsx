@@ -51,7 +51,7 @@ const HomePage = () => {
             <h1>Form Builder App</h1>
             <Link to="/form/create" className="create-form-link">Create New Form</Link>
             <div className="form-list">
-                {forms.map(form => (
+                {forms.length!==0?forms.map(form => (
                     <div key={form._id} className="form-item">
                         <h2>{form.title}</h2>
                         <div className="form-actions">
@@ -60,7 +60,7 @@ const HomePage = () => {
                             <button className='delete' onClick={() => handleDelete(form._id)}>Delete</button>
                         </div>
                     </div>
-                ))}
+                )):<p>No forms to display</p>}
             </div>
         </div>
     );
